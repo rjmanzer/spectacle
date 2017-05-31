@@ -28,10 +28,10 @@ See a demo of Spectacle in action here: [http://cheesestore.github.io](http://ch
 
 ## Usage
 
-Simply install Spectacle from `npm` like so:
+This is a custom build of Spectacle, to install this custom build do the following:
 
 ```bash
-npm install -g spectacle-docs
+npm install -g rjmanzer/spectacle
 ```
 
 Next pass your `swagger.json` document use the CLI to generate your documentation.
