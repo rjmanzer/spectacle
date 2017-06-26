@@ -1243,7 +1243,8 @@ Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-lic
   #spectacle .hljs-params,
   #spectacle .hljs-class .hljs-title {
     color: #f8f8f2; }
-  #spectacle .hljs-string,
+  #spectacle .hljs-string {
+    color: #0000f1; }
   #spectacle .hljs-type,
   #spectacle .hljs-built_in,
   #spectacle .hljs-builtin-name,
