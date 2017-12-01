@@ -101,7 +101,7 @@ var common = {
   	  ref = this.resolveSchemaReference(ref.$ref, root);
   	  return this.formatExampleProp(ref, root);
   	}
-    else if (ref.properties && ref.type == 'object') {
+    else if (ref.properties) {// && ref.type == 'object') {
       var obj = {};
       Object.keys(ref.properties).forEach(function(k) {
         obj[k] = that.formatExampleProp(ref.properties[k], root);
